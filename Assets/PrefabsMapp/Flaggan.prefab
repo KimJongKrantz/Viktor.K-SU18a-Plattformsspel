@@ -9,49 +9,50 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1022388503780496}
+  m_RootGameObject: {fileID: 1281759359435858}
   m_IsPrefabAsset: 1
---- !u!1 &1022388503780496
+--- !u!1 &1281759359435858
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4254205475679826}
-  - component: {fileID: 212623227188092706}
-  - component: {fileID: 114457365537438474}
-  - component: {fileID: 60574099879765208}
-  m_Layer: 0
-  m_Name: Spikarna
+  - component: {fileID: 4538963990088218}
+  - component: {fileID: 212173566672369146}
+  - component: {fileID: 95416857606071462}
+  - component: {fileID: 61523521203393716}
+  - component: {fileID: 114572362067844946}
+  m_Layer: 10
+  m_Name: Flaggan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4254205475679826
+--- !u!4 &4538963990088218
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1022388503780496}
+  m_GameObject: {fileID: 1281759359435858}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.5, y: -15.5, z: 0}
+  m_LocalPosition: {x: 3.51, y: -4.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &60574099879765208
-PolygonCollider2D:
+--- !u!61 &61523521203393716
+BoxCollider2D:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1022388503780496}
+  m_GameObject: {fileID: 1281759359435858}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -64,51 +65,45 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.4765625, y: -0.375}
-      - {x: 0.375, y: -0.078125}
-      - {x: 0.359375, y: -0.03125}
-      - {x: 0.3359375, y: 0.0078125}
-      - {x: 0.3125, y: 0}
-      - {x: 0.296875, y: -0.0546875}
-      - {x: 0.1953125, y: -0.359375}
-      - {x: 0.171875, y: -0.4453125}
-      - {x: 0.15625, y: -0.421875}
-      - {x: 0.109375, y: -0.28125}
-      - {x: 0.09375, y: -0.2265625}
-      - {x: 0.03125, y: -0.0390625}
-      - {x: 0.015625, y: 0}
-      - {x: -0.0078125, y: 0}
-      - {x: -0.0234375, y: -0.015625}
-      - {x: -0.1484375, y: -0.390625}
-      - {x: -0.1640625, y: -0.4453125}
-      - {x: -0.1953125, y: -0.3671875}
-      - {x: -0.3046875, y: -0.0390625}
-      - {x: -0.3203125, y: 0}
-      - {x: -0.3359375, y: 0}
-      - {x: -0.359375, y: -0.0234375}
-      - {x: -0.5, y: -0.4453125}
-      - {x: -0.5, y: -0.5}
-      - {x: 0.5, y: -0.5}
-      - {x: 0.5, y: -0.4453125}
---- !u!114 &114457365537438474
+  serializedVersion: 2
+  m_Size: {x: 0.8, y: 1}
+  m_EdgeRadius: 0
+--- !u!95 &95416857606071462
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1281759359435858}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c47546aa789a30841b509194f321be9f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114572362067844946
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1022388503780496}
+  m_GameObject: {fileID: 1281759359435858}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72a2b4fde6175044994969c8a63671be, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f964ed856cadc44fb9e23083e9a373c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!212 &212623227188092706
+  StartaOm: "Niv\xE5 1 F\xF6r unity grejen"
+--- !u!212 &212173566672369146
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1022388503780496}
+  m_GameObject: {fileID: 1281759359435858}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -138,7 +133,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300134, guid: f43d452ebc0063e43a127cd461ddb0b4, type: 3}
+  m_Sprite: {fileID: 21300014, guid: 5db29ab32c32e8c45955aec890236137, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

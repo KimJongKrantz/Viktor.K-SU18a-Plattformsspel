@@ -25,7 +25,7 @@ GameObject:
   m_Layer: 0
   m_Name: "OsynligV\xE4gg"
   m_TagString: "OsynligV\xE4gg"
-  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -43,7 +43,7 @@ GameObject:
   m_Layer: 0
   m_Name: "OsynligV\xE4gg (1)"
   m_TagString: "OsynligV\xE4gg"
-  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94f3312528867f84fb58157585fb43a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  "R\xF6relseFart": 2
+  "R\xF6relseFart": 6
 --- !u!114 &114497773349829414
 MonoBehaviour:
   m_ObjectHideFlags: 1

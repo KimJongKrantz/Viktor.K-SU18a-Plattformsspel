@@ -5,12 +5,13 @@ using UnityEngine;
 
 public class VinnarSkript : MonoBehaviour
 {
-    public string NivåGenereringNivå2 = "Nivå 2 För Unirty gejen";
+    public string StartaOm = "Nivå 1 För unity grejen";
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        // om Spelaren nuddar objektet med detta skript inlagd så startas nivån om
         if (collision.tag == "Player")
         {
-            SceneManager.LoadScene(NivåGenereringNivå2);
+            SceneManager.LoadScene(StartaOm);
         }
     }
 }

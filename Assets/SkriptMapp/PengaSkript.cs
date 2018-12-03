@@ -19,6 +19,7 @@ public class PengaSkript : MonoBehaviour
                 //resultatet av sökningen efter komponenten "PoängKontroll"
                 PoängKontrollerarenSkript PoängKontroll = Kontroll.GetComponent<PoängKontrollerarenSkript>();
 
+                //om Poängkontroll finns så visar poängkontroll poängmängden plus mängden poäng du har 
                 if (PoängKontroll != null)
                 {
                     PoängKontroll.PoängMängd += Poäng;
@@ -27,16 +28,14 @@ public class PengaSkript : MonoBehaviour
                 {
                     Debug.LogError("Poäng Kontrolleraren saknas på KontrollSkriptet");
                 }
-
             }
             else
             {
                 Debug.LogError(" KontrollSkriptet finns inte");
-
             }
-
+            //förstör spelobjektet som skriptet sitter på
+            Destroy(gameObject);
         }
-         Destroy(gameObject);
     }
 
 }

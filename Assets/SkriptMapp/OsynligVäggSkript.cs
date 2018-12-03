@@ -5,9 +5,9 @@ using UnityEngine;
 public class OsynligVäggSkript : MonoBehaviour
 {
 
-    // Use this for initialization
     void Start()
     {
+        //gör så att SpriteRenderer komponenten stängs av när spelet startar
         GetComponent<SpriteRenderer>().enabled = false;
     }
 
