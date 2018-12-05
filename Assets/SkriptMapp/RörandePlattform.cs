@@ -1,12 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class FiendeSkript2 : MonoBehaviour
+public class RörandePlattform : MonoBehaviour
 {
-    public DödHoppSkript påHoppad;
-    public float RörelseFart = 6;
+    public float RörelseFart = 3;
     private Rigidbody2D rBody;
     private bool TittarÅtVänster = true;
     void Start()
@@ -21,18 +19,6 @@ public class FiendeSkript2 : MonoBehaviour
         if (collision.tag == "OsynligVägg")
         {
             Vända(true);
-        }
-    }
-    void Update()
-    {
-        // när spelaren trycker på H så vänder fienden
-        if (Input.GetKeyDown(KeyCode.H))
-        {
-            Vända(true);
-        }
-        if (påHoppad.Träffad == 1)
-        {
-            Destroy(gameObject);
         }
     }
     void Vända(bool vända)

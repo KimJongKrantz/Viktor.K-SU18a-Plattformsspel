@@ -20,11 +20,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4254205475679826}
   - component: {fileID: 212623227188092706}
-  - component: {fileID: 114457365537438474}
   - component: {fileID: 60574099879765208}
+  - component: {fileID: 114188433416839334}
   m_Layer: 0
   m_Name: Spikarna
-  m_TagString: Untagged
+  m_TagString: Fiende
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92,7 +92,7 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.5}
       - {x: 0.5, y: -0.5}
       - {x: 0.5, y: -0.4453125}
---- !u!114 &114457365537438474
+--- !u!114 &114188433416839334
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}

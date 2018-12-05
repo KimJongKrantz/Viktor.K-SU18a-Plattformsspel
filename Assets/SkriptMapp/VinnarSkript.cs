@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class VinnarSkript : MonoBehaviour
 {
-    public string StartaOm = "Nivå 1 För unity grejen";
+    public string StartaOm = "Nivå 2 Electric Bogaloo";
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // om Spelaren nuddar objektet med detta skript inlagd så startas nivån om

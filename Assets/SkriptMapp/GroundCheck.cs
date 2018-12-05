@@ -9,12 +9,13 @@ public class GroundCheck : MonoBehaviour
     {
         Touches = 0;
     }
-    // gör så att när objektet nuddar ett objekt med en trigger så får variabeln Touches större värde varje gång man nuddar triggern
+    
+    // gör så att när triggern aktiveras på något sätt så får Touches större värde
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Touches++;
     }
-    //När man hoppar ut ur en Trigger så förlorar variabeln Touches värde
+    //När triggern inte aktiveras så får touches ett mindre värde
     private void OnTriggerExit2D(Collider2D collision)
     {
         Touches--;
