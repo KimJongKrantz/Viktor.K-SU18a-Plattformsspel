@@ -28,7 +28,7 @@ public class Rörelse : MonoBehaviour
         //Gör så att man kan röra sig med en rigidbody vänster och höger med A och D knappen repektivt. 
         rBody.velocity = new Vector2(
             Input.GetAxisRaw("Horizontal") * Rörelsefart, rBody.velocity.y);
-        // GroundCheck touches är över noll betyder det att dubbelhoppat får värdet ett
+        // Om GroundCheck touches är över noll betyder det att dubbelhoppat får värdet ett och vägghoppat får ett.
         if (groundCheck.Touches > 0)
         {
             DubbelHoppat = 1;

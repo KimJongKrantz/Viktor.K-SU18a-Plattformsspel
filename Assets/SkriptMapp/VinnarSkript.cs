@@ -5,13 +5,12 @@ using UnityEngine;
 
 public class VinnarSkript : MonoBehaviour
 {
-    public string StartaOm = "Nivå 2 Electric Bogaloo";
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // om Spelaren nuddar objektet med detta skript inlagd så startas nivån om
-        if (collision.tag == "Player")
+        if (collision.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene(StartaOm);
+            // Laddar scenen beroende på värdet som den har blivit angiven i Unity Indexet i build settings.
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }

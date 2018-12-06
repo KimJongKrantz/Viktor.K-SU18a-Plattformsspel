@@ -6,16 +6,12 @@ using UnityEngine;
 public class HälsaMängd : MonoBehaviour
 {
     public int Hälsa = 2;
-    private void Start()
-    {
-        
-    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         // gör så att om spelaren kolliderar med en fiende som har taggen "Fiende" förlorar en del av sin hälsa
         if (collision.gameObject.tag == "Fiende")
         {
-            Hälsa--; 
+            Hälsa--;
         }
     }
     void Update()

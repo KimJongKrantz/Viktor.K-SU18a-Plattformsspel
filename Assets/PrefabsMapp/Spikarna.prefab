@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4254205475679826}
   - component: {fileID: 212623227188092706}
   - component: {fileID: 60574099879765208}
-  - component: {fileID: 114188433416839334}
   m_Layer: 0
   m_Name: Spikarna
   m_TagString: Fiende
@@ -92,17 +91,6 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.5}
       - {x: 0.5, y: -0.5}
       - {x: 0.5, y: -0.4453125}
---- !u!114 &114188433416839334
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1022388503780496}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72a2b4fde6175044994969c8a63671be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &212623227188092706
 SpriteRenderer:
   m_ObjectHideFlags: 1

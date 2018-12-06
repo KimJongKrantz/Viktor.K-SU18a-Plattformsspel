@@ -97,7 +97,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f964ed856cadc44fb9e23083e9a373c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartaOm: "Niv\xE5 1 F\xF6r unity grejen"
 --- !u!212 &212173566672369146
 SpriteRenderer:
   m_ObjectHideFlags: 1

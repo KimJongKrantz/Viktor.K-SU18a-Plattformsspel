@@ -3,17 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class AjObjekt : MonoBehaviour
+public class VinnarSkript2 : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Om objektet nuddar ett objekt med taggen "Player" så startas skriptet
         if (collision.gameObject.tag == "Player")
         {
+            SceneManager.LoadScene("Nivå2ElectricBogaloo");
         }
     }
-
-
-
-
 }

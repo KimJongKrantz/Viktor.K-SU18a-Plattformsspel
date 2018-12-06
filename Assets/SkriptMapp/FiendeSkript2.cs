@@ -30,6 +30,8 @@ public class FiendeSkript2 : MonoBehaviour
         {
             Vända(true);
         }
+        // Nära Träffad från DödhoppSkriptet blir ett så förstörs fienden och försvinner helt och hållet.
+        // Jag gjorde så här för att förut så fanns fienden kvar men inte fiende huvudet. 
         if (påHoppad.Träffad == 1)
         {
             Destroy(gameObject);
